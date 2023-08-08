@@ -1,18 +1,18 @@
-# Phase 1 Independent Project
+# My Portfolio
 
 #### By: Yegon G.K. (Software Engineer)
+1. Slack/Mattermost - Yegon.
+2. linkedin - Yegon G.K.
+3. Email - kiprotych@gmail.com
 
 #### live Page links
-https://kiprotych.github.io/Phase1-Independent-Project/
+https://github.com/KIPROTYCH/My-Portfolio.git
 
 #### Repository link
-https://github.com/KIPROTYCH/Phase1-Independent-Project.git
+https://github.com/KIPROTYCH/My-Portfolio.git
 
 #### JSON Server link
 https://sports-1bfw.onrender.com/
-
-#### Figma Design
-https://www.figma.com/file/GEOiEmF199l4rmaqWIRiEQ/Football?type=design&node-id=0-1&mode=design&t=jMe9xtavmrexgvVK-0
 
 ## Table of Content
 1. Description.
@@ -24,7 +24,7 @@ https://www.figma.com/file/GEOiEmF199l4rmaqWIRiEQ/Football?type=design&node-id=0
 
 ## Description
 
-The Sports Ticket Booking and Live Streaming Website is an innovative platform tailored to meet the demands of sports enthusiasts. Powered by HTML, CSS, JavaScript, and an API JSON server, this project delivers a seamless user experience. Users can effortlessly explore match listings, access vital details, and swiftly book tickets. The website goes beyond ticketing, offering a high-quality live streaming feature that enables users to enjoy real-time sports action from the comfort of their homes. With API integration ensuring the availability of up-to-date match information, the Sports Ticket Booking and Live Streaming Website provides a technologically advanced solution for sports fanatics. Combining convenience, accuracy, and immersive entertainment, this platform offers a comprehensive and interactive experience for users to indulge in their passion for sports.
+
 
 ## Project Setup
 
@@ -49,7 +49,7 @@ CSS: Cascading Style Sheets is a language used to describe the appearance and fo
 
 JavaScript: A versatile programming language that enables interactive and dynamic behavior on websites and web applications.
 
-DB Jason:A special way to store and exchange data, similar to JSON. It's designed for databases and makes it easier to save and retrieve information efficiently.
+DB Json:A special way to store and exchange data, similar to JSON. It's designed for databases and makes it easier to save and retrieve information efficiently.
 
 
 ## License
@@ -58,9 +58,6 @@ The content of this repository is licensed under the MIT License.
 
 ## Conclusion
 
-In conclusion, the Sports Ticket Booking and Live Streaming Website showcases the power of technology in the realm of sports. Through the skillful integration of HTML, CSS, JavaScript, and an API, this project offers a seamless platform for sports enthusiasts. With features like streamlined ticket booking and immersive live streaming, it leverages cutting-edge technology to enhance the user experience, providing convenience, accuracy, and an unparalleled way to enjoy sports events.
+In conclusion..
 
-## Author's Info:
-1. Slack/Mattermost - Yegon.
-2. linkedin - Yegon G.K.
-3. Email - kiprotych@gmail.com
+
