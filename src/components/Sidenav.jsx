@@ -15,27 +15,27 @@ const Sidenav = () => {
                 nav ? (
 
                     <div className="fixed w-full h-screen bg-grey/90 flex flex-col justify-center items-center z-20">
-                        <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
+                        <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
                             <AiOutlineHome size={20} />
                             <span className="pl-4"> Home</span>
                         </a>
-                        <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
+                        <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
                             <AiOutlineCheckSquare size={20} />
                             <span className="pl-4"> About Me</span>
                         </a>
-                        <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
+                        <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
                             <AiOutlineSafetyCertificate size={20} />
                             <span className="pl-4">Education</span>
                         </a>
-                        <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
+                        <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
                             <AiOutlineProject size={20} />
                             <span className="pl-4">Career</span>
                         </a>
-                        <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
+                        <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
                             <GrProjects size={20} />
                             <span className="pl-4">My Projects</span>
                         </a>
-                        <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
+                        <a onClick={handleNav} href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-orange-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease duration-200">
                             <AiOutlineMail size={20} />
                             <span className="pl-4">Contacts</span>
                         </a>
@@ -45,22 +45,22 @@ const Sidenav = () => {
                 )}
                 <div className="md:block hidden fixed top-[25%] z-10">
                     <div className="flex flex-col">
-                    <a href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <a onClick={handleNav} href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                         <AiOutlineHome size={20} />
                     </a>
-                    <a href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <a onClick={handleNav}href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                         <AiOutlineCheckSquare size={20} />
                     </a>
-                    <a href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <a onClick={handleNav}href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                         <AiOutlineSafetyCertificate size={20} />
                     </a>
-                    <a href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <a onClick={handleNav}href="#main" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                         <AiOutlineProject size={20} />
                     </a>
-                    <a href="#projects" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <a onClick={handleNav} href="#projects" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                         <GrProjects size={20} />
                     </a>
-                    <a href="#contacts" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <a onClick={handleNav} href="#contacts" className="rounded-full shadow-lg bg-orange-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                         <AiOutlineMail size={20} />
                     </a>
                         
