@@ -2,6 +2,7 @@ import React from 'react'
 import Sidenav from './components/Sidenav'
 import Main from './components/Main'
 import Work from './components/Work'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <div>
       <Sidenav/>
       <Main/>
-      <Work />
+      <Work/>
+      <Projects/>
     </div>
   )
 }
