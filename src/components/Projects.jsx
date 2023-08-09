@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 import compImg from "../assets/comp.jpg"
 import gitlabImg from "../assets/gitlab.jpg"
 import standupImg from "../assets/standup.png"
-import programmingImg from "../assets/programming.png"
+import Comp2Img from "../assets/comp2.png"
 
 
 const Projects = () => {
@@ -14,10 +14,10 @@ const Projects = () => {
                 The following are some of my projects in software development. These structured endeavors encompass planning, execution, testing, and deployment, providing hands-on experience that reinforces theoretical concepts and contributes significantly to my growth as a skilled software engineer.
                 </p>
                 <div className="grid sm:grid-cols-2 gap-12">
-                    <ProjectItem/>
-                    <ProjectItem/>
-                    <ProjectItem/>
-                    <ProjectItem/>
+                    <ProjectItem img={gitlabImg} title="Gitlab" />
+                    <ProjectItem img={standupImg} title="StandUp"  />
+                    <ProjectItem img={compImg} title="Computer"  />
+                    <ProjectItem img={Comp2Img} title="Programming"  />
 
                 </div>
 
